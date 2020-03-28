@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/line_hor_other_1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <FrameLayout android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/other_locationEditText_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:layout_marginStart="@dimen/edit_margin_start"
+                android:layout_marginEnd="@dimen/edit_margin"
+                android:autofillHints=""
+                android:hint="@string/hint_weather"
+                android:textColor="@color/white_all"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textSize="24sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/other_button_1"
+            android:layout_width="@dimen/oval_radius"
+            android:layout_height="@dimen/oval_radius"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/edit_margin_start"
+            android:background="@drawable/oval_button"
+            android:drawableStart="@drawable/ic_done_24dp"
+            android:padding="@dimen/padding_button"
+            tools:ignore="MissingConstraints" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title">Weather View</string>
+    <string name="nav_header_subtitle" translatable="false">daaaanil81@gmail.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_about" translatable="false">About</string>
+    <string name="menu_home">Home</string>
+    <string name="hint_weather">City</string>
+    <string name="day_description" translatable="false">%1$s:  %2$s</string>
+    <string name="humidity">Humidity: %s</string>
+    <string name="api_key" translatable="false">58ca4fdd642722735b371b530b704cc9</string>
+    <string name="web_service_url" translatable="false">https://api.openweathermap.org/data/2.5/forecast?q=</string>
+    <string name="invalid_url">Invalid URL</string>
+    <string name="high_temp">High: %s</string>
+    <string name="low_temp">Low: %s</string>
+    <string name="read_error"> Unable to read weather data</string>
+    <string name="connect_error">Unable to connect to OpenWeatherMap.org</string>
+    <string name="weather_condition_image" translatable="false">A graphical representation of the weather conditions</string>
+    <string name="large_text" translatable="false">LargeText</string>
+    <string name="menu_other">Other</string>
+    <string name="check_edit">Check please city.</string>
+    <string name="few_clouds">Few clouds</string>
+    <string name="overcast_clouds">Overcast clouds</string>
+    <string name="light_rain">Light rain</string>
+    <string name="broken_clouds">Broken clouds</string>
+    <string name="clear_sky">Clear sky</string>
+    <string name="moderate_rain">Moderate rain</string>
+    <string name="scattered_clouds">Scattered clouds</string>
+</resources>

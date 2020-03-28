@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="moderate_rain" translatable="false">Умеренный дождь</string>
+    <string name="clear_sky" translatable="false">Чистое небо</string>
+    <string name="broken_clouds">Облачность</string>
+    <string name="light_rain">Легкий дождь</string>
+    <string name="overcast_clouds">Пасмурные облака</string>
+    <string name="scattered_clouds">Рассеянные облака</string>
+    <string name="few_clouds" translatable="false">Мало облаков</string>
+    <string name="hint_weather" translatable="false">Город</string>
+    <string name="connect_error" translatable="false">Нет подключения к серверу.</string>
+    <string name="check_edit" translatable="false">Проверти пожалуйста город.</string>
+    <string name="humidity" translatable="false">Влажность: %s</string>
+    <string name="invalid_url" translatable="false">Неверный URL.</string>
+    <string name="low_temp" translatable="false">Низ: %s</string>
+    <string name="read_error" translatable="false">Не было прочитано данных.</string>
+    <string name="nav_header_title" translatable="false">Прогноз Погоды</string>
+    <string name="high_temp" translatable="false">Выс: %s</string>
+    <string name="menu_home" translatable="false">Дом</string>
+    <string name="menu_other" translatable="false">Другой</string>
+</resources>
